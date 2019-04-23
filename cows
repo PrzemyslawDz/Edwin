@@ -1,0 +1,20 @@
+import random
+liczba= random.randrange(1,4)
+users=0
+cow=0
+bull=0
+#def liczenie():
+if users == liczba:
+    cow += 1
+else:
+    bull += 1
+
+#def gra(self, users):
+a=0
+while a<5:
+    users = int(input("Podaj liczbe"))
+
+    a+=1
+print(cow)
+print(bull)
+print(liczba)
